@@ -459,10 +459,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-color);
     background-color: var(--bkg-color-light);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     border-color: var(--bkg-color-light);
+    border-radius: 4px;
     margin: 0 auto;
     padding: 6px 22px;     
 }
@@ -470,6 +468,9 @@ body {
 .filters-btn:hover{
     color: var(--text-color-white);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-color: var(--accent-color);  
 }
 .btn-blue{
     background-color: var(--accent-color);
@@ -505,5 +506,9 @@ body {
     padding: 20px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    
+}
+.portfolio-item:hover,
+.portfolio-item:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
